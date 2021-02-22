@@ -46,6 +46,7 @@ header .brand-logo{
 }
 nav ul {
   display: flex;
+  margin-top: 1em;
 }
 nav li {
   padding-left: 20px;
