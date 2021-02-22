@@ -26,6 +26,10 @@ body {
 figure {
   margin: 0;
 }
+
+label {
+  font-size: var(--normal);
+}
 /* --------------- Header Section ----------------*/
 
 header nav {
@@ -211,6 +215,31 @@ nav li a:hover {
 }
 /* -------------Mentions Section */
 
+/* -------------Ventas */
+
+.modulo-pago {
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo-pago p {
+  text-align: left;
+}
+.modulo-pago-images {
+  max-width: 200px;
+  margin: auto;
+}
+.modulo-pago input{
+  margin-top: calc(var(--space) / 2);
+  width: 100%;
+  height: 35px;
+  margin-bottom: calc(var(--space) * 1.5);
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+}
+
+/* -------------Ventas */
+
 /* -------------Footer Section */
 .footer {
   width: 100%;
@@ -218,6 +247,8 @@ nav li a:hover {
   background-color: var(--black-color);
   color: var(--white-color);
   margin-top: 5%;
+  /* position: absolute;
+  bottom: 0; */
 }
 footer .content {
   display: flex;

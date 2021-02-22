@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Brand</title>
+</head>
+<body>
+  <!-- Aqui empieza el header -->
+  <header>
+    <nav class="fadeInDown">
+       <div class="brand-logo">
+         <img src="images/logo.png" alt="Logo">
+       </div>
+       <div class="nav-options">
+        <ul>
+          <li><a href="#">Faqs</a></li>
+          <li><a href="#">Producto y Descripcion</a></li>
+        </ul>
+       </div>
+    </nav>
+  </header>
+  <!-- Aqui termina el header -->
+
+  <!-- Empieza Formulario Venta -->
+
+  <div class="container container-space">
+
+    <div class="row">
+        <div class="col-4">
+            <div class="modulo-pago">
+                <div class="modulo-pago-images">
+                    <img src="images/elon.png" width="auto" height="180px" alt="">
+                </div>
+                <h3>
+                    Mr. Elon Musk
+                </h3>
+                <p>
+                    Miles de productos hay en el mercado, pero nada como una caja con gatitos, Miles de productos hay en el mercado, pero nada como una caja con gatitos.Miles de productos hay en el mercado, pero nada como una caja con gatitos, Miles de productos hay en el mercado, pero nada como una caja con gatitos
+                </p>
+             </div>
+        </div>
+        <div class="col-8">
+            <div class="modulo-pago">
+               <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=334QHAD5BZ79W" method="POST">
+                   <label for="name">Nombre</label><br>
+                   <input id="name" type="text" placeholder=""><br>
+
+                   <label for="email">Correo</label><br>
+                   <input id="email" type="email" placeholder=""><br>
+                   
+                   <label for="telf">Telefono</label><br>
+                   <input id="telf" type="phone" placeholder=""><br>
+                   
+                   <button type="submit" class="main-button"  >Confirmar Pago</button>
+               </form>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+  <!-- Termina Formulario Venta -->
+
+<!-- Comienza el Footer -->
+<footer class="footer">
+  <div class="content">
+    <div>
+      <p><a href="#">Terminos y Condiciones</a></p>
+    </div>
+    <div>
+      <p>contacto@gmail.com</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script/script.js"></script>
+</body>
+</html>

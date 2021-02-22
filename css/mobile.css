@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 1023px) {
   
   .products-section{
     display: inherit;
@@ -35,5 +35,8 @@
     width: auto;
     margin-left: auto;
     margin-right: auto;
+  }
+  .footer {
+    position: inherit;
   }
 }
